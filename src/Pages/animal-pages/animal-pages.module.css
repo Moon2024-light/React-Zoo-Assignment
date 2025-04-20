@@ -1,0 +1,56 @@
+.bgContainer {
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex: 0 0 50%;
+}
+
+
+.mammals {
+    
+    background-image: url("../../assets/images/mammals.jpg");
+    background-position: center 5%;
+    
+}
+
+.reptiles {
+    background-image: url("../../assets/images/snake.jpg");
+    background-position: center 35%;
+}
+
+.birds {
+    background-image: url("../../assets/images/bird2.jpg");
+    background-position: center 7%;
+}
+
+.animalTitle {
+    margin-left: 16px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+} 
+
+@media screen and (max-width: 767px) {
+    .bgContainer {
+        flex: 0 0 30%;
+    }
+
+    .animalTitle {
+        display: none;
+    }
+
+    .main {
+        flex-direction: column;
+    }
+}
+
+
+.animalTitle {
+    margin-left: 16px;
+}
+
+.main {
+    display: flex;
+    flex-grow: 1;
+}

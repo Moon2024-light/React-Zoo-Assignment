@@ -1,0 +1,77 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: #fff;
+    padding: 16px;
+    flex-wrap: wrap;
+  }
+  
+  .contacts h4 {
+    font-size: 0.9rem;
+    margin-top: 16px;
+  }
+  
+  .more {
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .more button {
+    background-color: black;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bolder;
+    padding: 8px;
+    text-transform: uppercase;
+    margin-top: 8px;
+  }
+  
+  .more button:hover {
+    background-color:  #f89d31;
+    color:#fff;
+  }
+  
+  .socials {
+    text-align: center;
+  }
+  
+  .iconRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+  }
+  
+  .socialIcon {
+    width: 28px;
+    height: 28px;
+    margin: 0 6px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .socialIcon:hover {
+    transform: scale(1.1);
+  }
+  
+  @media screen and (max-width: 767px) {
+    .footer {
+      flex-direction: column;
+      text-align: center;
+      padding: 24px;
+    }
+  
+    .contacts, .more, .socials {
+      width: 100%;
+      margin-bottom: 16px;
+    }
+  
+    .contacts {
+      padding-left: 0;
+    }
+  }
+  
