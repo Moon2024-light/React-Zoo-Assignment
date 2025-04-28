@@ -60,7 +60,7 @@ let reptiles = [
         getImageURL("frill-necked_lizard.jpg")
     ),
     new Animal(
-        "Hawksbill Turtle",
+        "hawksbill_turtle.jpg",
         50,
         "Reptiles",
         "other animals (sponges & jellyfish), sea plants",
@@ -103,7 +103,7 @@ let birds = [
         "43cm",
         300 / 1000,
         "Australia wide",
-        getImageURL("kookaburra.jpg")
+        getImageURL("Kookaburra.jpg")
     ),
     new Animal(
         "Yellow-Tailed Black Cockatoo",
